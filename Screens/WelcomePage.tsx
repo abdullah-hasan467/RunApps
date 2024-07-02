@@ -5,7 +5,7 @@ export default function Welcome({navigation}) {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigation.navigate('Login');
-    }, 1000); // 3 seconds delay
+    }, 3000); // 3 seconds delay
 
     return () => clearTimeout(timer); // Clean up the timer
   }, [navigation]);

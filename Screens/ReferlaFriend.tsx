@@ -1,7 +1,6 @@
 import {Ionicons} from '@expo/vector-icons'; // Ensure to install expo vector icons or modify accordingly if using a different icon library
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-
 export default function App() {
   return (
     <View style={styles.container}>
