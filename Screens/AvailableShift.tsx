@@ -14,7 +14,7 @@ const shifts = [
   {area: 'Bashundhura', time: '11:00 AM - 07:00 PM'},
 ];
 
-export default function SchedulePage({navigation}) {
+export default function SchedulePage() {
   // Calculate the total number of shifts
   const totalShifts = shifts.length;
 

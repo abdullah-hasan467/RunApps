@@ -13,12 +13,8 @@ export default function Welcome({navigation}) {
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <Image
-          source={require('../img/FoodHublogo.png')}
-          style={styles.image}
-        />
         <Text style={styles.title}>
-          Food<Text style={styles.subtitle}>hub</Text>
+          Ri<Text style={styles.subtitle}>der</Text>
         </Text>
       </View>
       <View style={styles.buttonContainer} />
